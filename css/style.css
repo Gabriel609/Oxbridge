@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-paragraph{
+    font-size: 15px;
+}
+.btn-apply{
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+.navbarcolor{
+ background-color: rgb(28,27,59);
+}
+
+.logo-width{
+    width: 350px
+}
