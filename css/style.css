@@ -1,32 +1,31 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.nav-paragraph{
-    font-size: 15px;
+.nav-paragraph {
+  font-size: 15px;
 }
-.btn-apply{
-    border: none;
-    background-color: white;
-    text-transform: uppercase;
+.btn-apply {
+  border: none;
+  background-color: white;
+  text-transform: uppercase;
 }
-.navbarcolor{
- background-color: rgb(28,27,59);
-}
-
-.logo-width{
-    width: 230px
-}
-.hero-image{
- width: 750px;
-}
-.Welcome{
-    border-bottom: 3px solid rgb(197,2,39);
-    padding-bottom: 10px;
-}
-.News{
-    padding-bottom: 10px;
+.navbarcolor {
+  background-color: rgb(28, 27, 59);
 }
 
+.logo-width {
+  width: 230px;
+}
+.hero-image {
+  width: 750px;
+}
+.Welcome {
+  border-bottom: 3px solid rgb(197, 2, 39);
+  padding-bottom: 10px;
+}
+.News {
+  padding-bottom: 10px;
+}
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -53,7 +52,8 @@ body{
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -72,4 +72,15 @@ body{
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+.application {
+  margin-top: 200px;
+  background-image: url("../images/application.jpg");
+  background-size:cover;
+  background-repeat:no-repeat ;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  text-decoration: white;
+  justify-content: space-between;
 }
