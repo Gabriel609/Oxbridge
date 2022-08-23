@@ -80,7 +80,41 @@ body {
   background-repeat:no-repeat ;
   background-position: center;
   width: 100%;
-  height: 300px;
+  height: 500px;
   text-decoration: white;
   justify-content: space-between;
+}
+.Text{
+  font-size:22px;
+}
+.apply{
+ background-color: rgb(197,2,39);
+ border:none;
+}
+.Events{
+  border-bottom: 3px solid rgb(197, 2, 39);
+  padding-bottom: 10px;
+  
+}
+.motto{
+  background-color:rgb(33,32,82);
+  height: 150px;
+}
+.btn-apply2{
+  font-size:xx-large;
+}
+.logo{
+  width: 300px;
+}
+.footer{
+height: 400px;
+}
+.footer-text{
+  color: rgb(171,171,171);
+}
+.about{
+  color: rgb(171,171,171);
+}
+.address{
+  color: rgb(171,171,171);
 }
